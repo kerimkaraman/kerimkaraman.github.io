@@ -1,0 +1,11 @@
+# Local planning and hosting metadata
+docs/
+.openai/
+
+# Local environment and dependencies
+.env
+.env.*
+!.env.example
+node_modules/
+.DS_Store
+*.log
