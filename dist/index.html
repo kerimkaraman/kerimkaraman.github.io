@@ -1,12 +1,245 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Kerim Karaman — Junior AI Engineer exploring RAG, LLM evaluation, model routing and visual AI workflows through hands-on projects."><title>Kerim Karaman / AI Engineer</title><link rel="stylesheet" href="style.css?v=6a03ed2d512d"></head><body>
-<div class="scanlines" aria-hidden="true"></div>
-<header><a class="wordmark" href="#">kk<span>®</span></a><nav aria-label="Main navigation"><a href="#about">01 / about</a><a href="#work">02 / projects</a><a href="#stack">03 / toolkit</a></nav><a class="contact-link" href="#contact">connect ↗</a></header>
-<main><section class="hero" aria-labelledby="hero-title"><div class="hero-top"><span>PERSONAL INTERFACE / VOL. 01</span><span class="online"><i></i> HUMAN BEHIND THE MACHINE</span></div><div class="hero-title"><p>Hi, I’m Kerim.</p><h1 id="hero-title">INTELLIGENCE,<br><em>ENGINEERED.</em><span class="asterisk">✳</span></h1></div><div class="hero-collage"><div class="hero-photo"><img src="assets/transit.jpg" alt="A futuristic transit space in icy blue tones"><span class="photo-coordinate">41°00′ N / 28°58′ E<br>FUTURE IN PROGRESS</span><div class="target" aria-hidden="true"></div></div><div class="floating-card"><span class="tiny">IDENTITY_FILE.001</span><div class="card-star">✳</div><h2>Kerim<br>Karaman</h2><span class="role">JUNIOR AI ENGINEER</span><div class="card-bottom"><span>RAG · LLM · GEN AI</span><span>↗</span></div></div><div class="hero-description"><span class="tiny">[ HUMAN + MACHINE ]</span><p>Stay curious.<br>Try things.<br>Keep learning.</p><a class="pill" href="#interests">Explore my interests <span>↓</span></a></div><span class="vertical-label">DESIGNED FOR THE NEXT ITERATION — 2026</span></div><div class="hero-bottom"><span>ARTIFICIAL INTELLIGENCE / REAL CURIOSITY</span><span>SCROLL TO EXPLORE ↓</span><span>001 — 004</span></div></section>
-<div class="ticker" aria-hidden="true"><div>RETRIEVE. REASON. GENERATE. <span>✳</span> RETRIEVE. REASON. GENERATE. <span>✳</span> RETRIEVE. REASON. GENERATE. <span>✳</span></div></div>
-<section id="about" class="section about"><div class="section-label">01 / ABOUT ME<span>THE HUMAN LAYER</span></div><div class="about-content"><h2>Start with curiosity.<br><span>Learn by doing.</span></h2><div class="about-text"><p>I’m Kerim, a junior AI engineer exploring RAG, large language models, prompt engineering and AI workflow systems.</p><p>I learn by building and measuring. My projects range from document-based chatbots and visual workflows to evaluating model routing on MMLU and GSM8K. I’m interested in where models succeed, where they fail, and how quality, cost and latency interact. I also have hands-on experience with MongoDB, Milvus and Docker.</p><a href="#stack" class="text-link">Explore my toolkit ↗</a></div></div><div class="focus-row"><span><b>01</b> Learn</span><span><b>02</b> Try a small experiment</span><span><b>03</b> Compare the results</span></div></section>
-<section id="interests" class="section interests"><div class="section-label">MY INTERESTS<span>LEARNING IN PUBLIC / ALWAYS IN PROGRESS</span></div><div class="work-heading"><h2>Currently <em>exploring.</em></h2><span class="tiny">EXPLORING [04]</span></div><div class="interest-grid"><article><span class="tiny">01 / RETRIEVAL</span><h3>RAG</h3><p>How can we connect models to our own documents? I’m learning about chunking, embeddings and retrieving relevant context.</p><span class="interest-note">chunking · embeddings · vector search</span></article><article><span class="tiny">02 / LANGUAGE</span><h3>LLM & Gen AI</h3><p>I’m exploring what language models can do and where they struggle. Small applications help me understand how they behave.</p><span class="interest-note">language models · generation · experiments</span></article><article><span class="tiny">03 / INSTRUCTIONS</span><h3>Prompt engineering</h3><p>How does asking the same question differently change the result? I experiment with instructions, examples and context to see what works.</p><span class="interest-note">instructions · few-shot · output formats</span></article><article><span class="tiny">04 / ON MY MACHINE</span><h3>Local LLMs</h3><p>I’m interested in running models on my own machine. With Ollama, I try local models and explore the trade-offs between hardware requirements and response quality.</p><span class="interest-note">Ollama · local inference · model exploration</span></article></div></section>
-<section id="work" class="section work"><div class="section-label">02 / PROJECT NOTES<span>LEARNING BY BUILDING</span></div><article class="project compact-project router-project" aria-labelledby="router-title"><div class="project-mark router-mark" aria-hidden="true"><span>EXPERIMENT_002</span><strong>m<span>↗</span></strong><small>MODEL ROUTING / EVALUATION</small></div><div class="project-info"><div class="project-number">EVALUATION PROJECT <span>COMPLETED STUDY</span></div><h3 id="router-title">Model Router + Eval</h3><p>Comparing three language models on MMLU &amp; GSM8K, then testing Decisions-based escalation to understand the trade-offs between accuracy, cost and latency.</p><div class="tags"><span>Python</span><span>OpenAI / Decisions</span><span>LLM evaluation</span></div><button class="text-link" data-project-toggle data-open-label="Read the findings" aria-expanded="false" aria-controls="router-details">Read the findings <span aria-hidden="true">↗</span></button></div></article><div id="router-details" class="project-details" hidden><h3>What the evaluation showed.</h3><p>200 questions, split into 120 development and 80 test cases. The fixed routing policy scored 75/80 on the test split, matching the Luna baseline with higher estimated cost.</p><p>The study compares baselines and routing policies, documenting when escalation helps and when a stronger model can make an answer worse.</p><a class="text-link" href="https://github.com/kerimkaraman/model-router" target="_blank" rel="noopener noreferrer">Explore the code &amp; results <span aria-hidden="true">↗</span></a></div><article class="project compact-project project-divider"><div class="project-mark" aria-hidden="true"><span>EXPERIMENT_001</span><strong>k<span>↗</span></strong><small>WORK IN PROGRESS</small></div><div class="project-info"><div class="project-number">PERSONAL PROJECT <span>IN DEVELOPMENT</span></div><h3>Keryon</h3><p>A visual AI workflow project where I bring together what I’m learning. I’m experimenting with LLM calls, document retrieval and workflows in one application.</p><div class="tags"><span>Python / FastAPI</span><span>LangChain</span><span>MongoDB</span><span>Milvus</span></div><button class="text-link" id="project-toggle" data-project-toggle data-open-label="Read the project note" aria-expanded="false" aria-controls="project-details">Read the project note <span>↗</span></button></div></article><div id="project-details" class="project-details" hidden><h3>Keryon as a learning space.</h3><p>Building workflows in a visual editor helps me learn how APIs, storage and LLM integrations fit together. The project uses FastAPI, React Flow, LangChain, MongoDB and Milvus Lite. It gives me practice with document retrieval, response validation and execution logs.</p></div><article class="project compact-project archived-project"><div class="project-mark rag-mark" aria-hidden="true"><span>EARLY_EXPERIMENT</span><strong>r<span>↗</span></strong><small>FROM THE LEARNING ARCHIVE</small></div><div class="project-info"><div class="project-number">PERSONAL PROJECT <span>EARLY EXPLORATION</span></div><h3>Simple RAG Chatbot</h3><p>An earlier hands-on project exploring how a chatbot can answer using a custom knowledge base. I connected Gemini with document retrieval in Milvus and conversation history in MongoDB, behind a FastAPI backend.</p><p class="project-reflection">A starting point for learning how retrieval, prompts and chat history fit together.</p><div class="tags"><span>Python / FastAPI</span><span>Gemini</span><span>Milvus</span><span>MongoDB</span></div><a class="text-link" href="https://github.com/kerimkaraman/simple_chatbot_with_rag" target="_blank" rel="noopener noreferrer">Explore on GitHub <span aria-hidden="true">↗</span></a></div></article></section>
-<section class="section lab"><div class="section-label">INTERACTIVE NOTE / 001<span>A NOTE FROM MY LEARNING JOURNEY</span></div><div class="lab-grid"><div><h2>Behind<br><em>an answer.</em></h2><p>One topic I’m learning about: RAG.<br>Explore the steps in this simple walkthrough.</p><span class="tiny">CONCEPTUAL DEMO / NO LIVE MODEL</span></div><div class="rag-demo"><div class="rag-tabs" role="tablist" aria-label="RAG stages"><button role="tab" aria-selected="true" data-step="0" id="tab0" aria-controls="rag-panel">01 Retrieve</button><button role="tab" aria-selected="false" data-step="1" id="tab1" aria-controls="rag-panel" tabindex="-1">02 Augment</button><button role="tab" aria-selected="false" data-step="2" id="tab2" aria-controls="rag-panel" tabindex="-1">03 Generate</button></div><div id="rag-panel" role="tabpanel" aria-labelledby="tab0"><span class="tiny" id="rag-code">CONTEXT_SEARCH.EXECUTE()</span><h3 id="rag-title">First, find relevant information.</h3><p id="rag-text">The question becomes an embedding. Semantic similarity and keywords help surface relevant chunks from the knowledge base.</p><div class="retrieval-bars" aria-hidden="true"><div><span>document_chunk_01</span><b style="width:92%"></b></div><div><span>document_chunk_02</span><b style="width:74%"></b></div><div><span>document_chunk_03</span><b style="width:51%"></b></div></div></div></div></div></section>
-<section id="stack" class="section stack"><div class="section-label">03 / TOOLKIT<span>TOOLS OF THE TRADE</span></div><h2>Tools evolve.<br><em>Curiosity stays.</em></h2><p class="stack-intro">These are the tools I’m getting familiar with through personal projects. Think of this as my current learning toolkit, with skills I’m continuing to develop.</p><div class="stack-list"><div><span>01 / AI EXPERIMENTS</span><p>Ollama · OpenAI · LangChain</p><small>Model integration / Decisions-based evaluation / routing experiments</small></div><div><span>02 / DATA & RETRIEVAL</span><p>MongoDB · Milvus</p><small>Basic familiarity / document storage / vector search</small></div><div><span>03 / APPLICATION DEVELOPMENT</span><p>Python · FastAPI · React · TypeScript</p><small>Learning through personal projects</small></div><div><span>04 / DEVELOPMENT ENVIRONMENT</span><p>Docker · Git · uv</p><small>Basic familiarity / local setup / project management</small></div></div></section>
-<section id="contact" class="contact section"><div class="section-label">04 / CONNECT<span>END OF PAGE. START OF SOMETHING.</span></div><div class="contact-main"><h2>The next<br><em>possibility.</em><span>↗</span></h2><div><p>For learning together, sharing ideas<br>and trying something new.</p><div class="contact-methods"><a href="mailto:kerim282841@gmail.com">Email <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/kerim-karaman-640091184/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a></div></div></div><footer><a class="wordmark" href="#">kk<span>®</span></a><span>© 2026 KERIM KARAMAN</span><span>HUMAN IDEAS. MACHINE POSSIBILITIES.</span><a href="#">BACK TO TOP ↑</a></footer></section></main><script src="app.js?v=df09f385d2e3"></script><script src="keryon-widget.js"></script></body></html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Kerim Karaman — junior AI engineer exploring RAG, LLMs, prompt engineering and visual AI workflows through hands-on projects.">
+<title>kerim karaman — AI engineer</title>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="kerim karaman">
+<meta property="og:url" content="https://kerimkaraman.github.io/">
+<meta property="og:title" content="kerim karaman — AI engineer">
+<meta property="og:description" content="Junior AI engineer exploring RAG, LLMs, prompt engineering and visual AI workflows through hands-on projects.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css?v=5">
+</head>
+<body id="top">
+<a class="skip" href="#main">skip to content</a>
+
+<header>
+  <a class="logo" href="#top" aria-label="Kerim Karaman, back to top">kk<span>.</span></a>
+  <nav aria-label="Main navigation">
+    <a href="#about">about</a>
+    <a href="#projects">projects</a>
+    <a href="#toolkit">toolkit</a>
+    <a href="#contact">contact ↗</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="intro" aria-labelledby="title">
+    <h1 id="title">kerim karaman<span>.</span></h1>
+    <p class="intro-line">Junior AI engineer. I build small projects to understand how language models actually work.</p>
+    <p class="intro-meta">kocaeli · RAG, LLMs, local models · <a href="#contact">open to work</a></p>
+  </section>
+
+  <section class="block" id="about" aria-labelledby="about-title">
+    <div class="section-heading">
+      <h2 id="about-title">about</h2>
+      <span class="meta">01 / the human layer</span>
+    </div>
+    <div class="about-grid">
+      <div class="about-body">
+        <p class="lede">I’m Kerim, a junior AI engineer exploring RAG, large language models, prompt engineering and AI workflow systems.</p>
+        <p>I learn by building and measuring. My projects range from document-based chatbots and visual workflows to evaluating model routing on MMLU and GSM8K. I’m interested in where models succeed, where they fail, and how quality, cost and latency interact. I also have hands-on experience with MongoDB, Milvus and Docker.</p>
+      </div>
+
+      <div class="about-side">
+        <dl class="specs">
+          <div><dt>role</dt><dd>Junior AI engineer</dd></div>
+          <div><dt>focus</dt><dd>RAG · LLM applications · prompt engineering</dd></div>
+          <div><dt>now</dt><dd>Building Keryon, a visual AI workflow tool</dd></div>
+          <div><dt>based</dt><dd>Kocaeli, Türkiye — 40.77°N / 29.94°E</dd></div>
+          <div><dt>status</dt><dd>Open to junior roles and collaborations</dd></div>
+          <div><dt>email</dt><dd><a href="mailto:kerim282841@gmail.com">kerim282841@gmail.com</a></dd></div>
+        </dl>
+
+        <div class="order">
+          <div class="total-row">
+            <span>available for</span>
+            <p>junior roles <span class="currency">and collaborations</span></p>
+          </div>
+          <a class="button" href="mailto:kerim282841@gmail.com">get in touch <span aria-hidden="true">↗</span></a>
+          <p class="note">Email is the fastest way to reach me.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block split" id="interests" aria-labelledby="interests-title">
+    <div class="rail">
+      <h2 id="interests-title">currently<br>exploring.</h2>
+      <p>Four things I keep coming back to. Learning in public, always in progress.</p>
+      <span class="meta">02 / focus</span>
+    </div>
+    <div class="choices">
+      <article class="choice">
+        <span class="idx">01 / retrieval</span>
+        <h3>RAG</h3>
+        <p>How can we connect models to our own documents? I’m learning about chunking, embeddings and retrieving relevant context.</p>
+        <span class="note">chunking · embeddings · vector search</span>
+      </article>
+      <article class="choice">
+        <span class="idx">02 / language</span>
+        <h3>LLM &amp; Gen AI</h3>
+        <p>I’m exploring what language models can do and where they struggle. Small applications help me understand how they behave.</p>
+        <span class="note">language models · generation · experiments</span>
+      </article>
+      <article class="choice">
+        <span class="idx">03 / instructions</span>
+        <h3>Prompt engineering</h3>
+        <p>How does asking the same question differently change the result? I experiment with instructions, examples and context to see what works.</p>
+        <span class="note">instructions · few-shot · output formats</span>
+      </article>
+      <article class="choice">
+        <span class="idx">04 / on my machine</span>
+        <h3>Local LLMs</h3>
+        <p>I’m interested in running models on my own machine. With Ollama, I try local models and explore the trade-offs between hardware requirements and response quality.</p>
+        <span class="note">Ollama · local inference · model exploration</span>
+      </article>
+    </div>
+  </section>
+
+  <section class="block split" id="projects" aria-labelledby="projects-title">
+    <div class="rail">
+      <h2 id="projects-title">selected<br>projects.</h2>
+      <p>Small experiments, documented honestly — including what the numbers actually showed.</p>
+      <span class="meta">03 / learning by building</span>
+    </div>
+    <div class="projects">
+
+      <article class="project">
+        <div class="project-head">
+          <h3>Model Router + Eval</h3>
+          <span class="badge">completed study</span>
+        </div>
+        <p>Comparing three language models on MMLU &amp; GSM8K, then testing Decisions-based escalation to understand the trade-offs between accuracy, cost and latency.</p>
+        <div class="tags"><span>Python</span><span>OpenAI / Decisions</span><span>LLM evaluation</span></div>
+        <details>
+          <summary>read the findings</summary>
+          <div class="details-body">
+            <p>200 questions, split into 120 development and 80 test cases. The fixed routing policy scored 75/80 on the test split, matching the Luna baseline with higher estimated cost.</p>
+            <p>The study compares baselines and routing policies, documenting when escalation helps and when a stronger model can make an answer worse.</p>
+            <p><a href="https://github.com/kerimkaraman/model-router" target="_blank" rel="noopener noreferrer">Explore the code &amp; results ↗</a></p>
+          </div>
+        </details>
+      </article>
+
+      <article class="project">
+        <div class="project-head">
+          <h3>Keryon</h3>
+          <span class="badge">in development</span>
+        </div>
+        <p>A visual AI workflow project where I bring together what I’m learning. I’m experimenting with LLM calls, document retrieval and workflows in one application.</p>
+        <div class="tags"><span>Python / FastAPI</span><span>LangChain</span><span>MongoDB</span><span>Milvus</span></div>
+        <details>
+          <summary>read the project note</summary>
+          <div class="details-body">
+            <p>Building workflows in a visual editor helps me learn how APIs, storage and LLM integrations fit together. The project uses FastAPI, React Flow, LangChain, MongoDB and Milvus Lite. It gives me practice with document retrieval, response validation and execution logs.</p>
+          </div>
+        </details>
+      </article>
+
+      <article class="project">
+        <div class="project-head">
+          <h3>Simple RAG Chatbot</h3>
+          <span class="badge">early exploration</span>
+        </div>
+        <p>An earlier hands-on project exploring how a chatbot can answer using a custom knowledge base. I connected Gemini with document retrieval in Milvus and conversation history in MongoDB, behind a FastAPI backend.</p>
+        <p class="muted">A starting point for learning how retrieval, prompts and chat history fit together.</p>
+        <div class="tags"><span>Python / FastAPI</span><span>Gemini</span><span>Milvus</span><span>MongoDB</span></div>
+        <details>
+          <summary>explore on GitHub</summary>
+          <div class="details-body">
+            <p><a href="https://github.com/kerimkaraman/simple_chatbot_with_rag" target="_blank" rel="noopener noreferrer">github.com/kerimkaraman/simple_chatbot_with_rag ↗</a></p>
+          </div>
+        </details>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="block split" id="walkthrough" aria-labelledby="walkthrough-title">
+    <div class="rail">
+      <h2 id="walkthrough-title">behind<br>an answer.</h2>
+      <p>One topic I’m learning about: RAG. Explore the steps in this simple walkthrough.</p>
+      <span class="meta">04 / interactive note</span>
+    </div>
+    <div class="demo">
+      <div class="demo-bar">
+        <span>rag_walkthrough</span>
+        <span>no live model</span>
+      </div>
+      <div class="tabs" role="tablist" aria-label="RAG stages">
+        <button role="tab" aria-selected="true" data-step="0" id="tab0" aria-controls="rag-panel">01 retrieve</button>
+        <button role="tab" aria-selected="false" data-step="1" id="tab1" aria-controls="rag-panel" tabindex="-1">02 augment</button>
+        <button role="tab" aria-selected="false" data-step="2" id="tab2" aria-controls="rag-panel" tabindex="-1">03 generate</button>
+      </div>
+      <div id="rag-panel" role="tabpanel" aria-labelledby="tab0">
+        <span class="meta" id="rag-code">CONTEXT_SEARCH.EXECUTE()</span>
+        <h3 id="rag-title">First, find relevant information.</h3>
+        <p id="rag-text">The question becomes an embedding. Semantic similarity and keywords help surface relevant chunks from the knowledge base.</p>
+        <div class="bars">
+          <div class="bar"><span>document_chunk_01</span><span class="track"><b style="width:92%"></b></span></div>
+          <div class="bar"><span>document_chunk_02</span><span class="track"><b style="width:74%"></b></span></div>
+          <div class="bar"><span>document_chunk_03</span><span class="track"><b style="width:51%"></b></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block split" id="toolkit" aria-labelledby="toolkit-title">
+    <div class="rail">
+      <h2 id="toolkit-title">toolkit.</h2>
+      <p>These are the tools I’m getting familiar with through personal projects. Think of this as my current learning toolkit, with skills I’m continuing to develop.</p>
+      <span class="meta">05 / tools of the trade</span>
+    </div>
+    <dl class="toolkit">
+      <div>
+        <dt>01 / ai experiments</dt>
+        <dd><span class="tools">Ollama · OpenAI · LangChain</span><span class="note">Model integration / local inference / small experiments</span></dd>
+      </div>
+      <div>
+        <dt>02 / data &amp; retrieval</dt>
+        <dd><span class="tools">MongoDB · Milvus</span><span class="note">Basic familiarity / document storage / vector search</span></dd>
+      </div>
+      <div>
+        <dt>03 / application development</dt>
+        <dd><span class="tools">Python · FastAPI · React · TypeScript</span><span class="note">Learning through personal projects</span></dd>
+      </div>
+      <div>
+        <dt>04 / development environment</dt>
+        <dd><span class="tools">Docker · Git · uv</span><span class="note">Basic familiarity / local setup / project management</span></dd>
+      </div>
+    </dl>
+  </section>
+
+  <section class="contact" id="contact" aria-labelledby="contact-title">
+    <div class="section-heading">
+      <h2 id="contact-title">the next possibility<span>.</span></h2>
+      <span class="meta">06 / connect</span>
+    </div>
+    <p>For learning together, sharing ideas and trying something new.</p>
+    <div class="links">
+      <a href="mailto:kerim282841@gmail.com">email <span aria-hidden="true">↗</span></a>
+      <a href="https://www.linkedin.com/in/kerim-karaman-640091184/" target="_blank" rel="noopener noreferrer">linkedin <span aria-hidden="true">↗</span></a>
+      <a href="https://github.com/kerimkaraman" target="_blank" rel="noopener noreferrer">github <span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <span>kerim karaman · © 2026</span>
+  <a href="mailto:kerim282841@gmail.com">email ↗</a>
+  <a href="https://www.linkedin.com/in/kerim-karaman-640091184/" target="_blank" rel="noopener noreferrer">linkedin ↗</a>
+  <a href="https://github.com/kerimkaraman" target="_blank" rel="noopener noreferrer">github ↗</a>
+  <a href="#top">top ↑</a>
+</footer>
+
+<script src="app.js?v=5"></script>
+<script src="keryon-widget.js"></script>
+</body>
+</html>
